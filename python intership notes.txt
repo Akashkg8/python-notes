@@ -1,0 +1,753 @@
+INTRODUCTION TO PYTHON (INTERNSHIP PROGRAM)
+
+conditional  statements
+1.if
+2.if else
+3.elif
+3.nested if
+
+->in python there are only for loop and  while loop.
+
+->three control statements
+1.break
+2.continue
+3.pass
+
+working of else if:
+n=int(input())
+if n%2==0:
+    b=7
+    print(n,b)
+else:
+    print(b)
+
+
+->program to check positive or negetive number
+
+n=int(input())
+if n>0:
+    print("n is positive")
+elif n<0:
+    print("n is negetive")
+else:
+    print("0")
+
+
+
+->program for nested if (working):
+
+height=float(input())
+weight=float(input())
+gender=input()
+if height>5.8:
+ if weight<5.0:
+  if gender=="female":    
+    print("selected")
+  else:    
+    print("not selected")
+ else:   
+    print("not selected")
+else:
+    print("not selected")
+
+
+
+->leap year program:
+
+n=int(input())
+if n%4==0:
+  if n%100==0:
+    if n%400==0:
+     print("is a leap year")
+    else:
+     print("is not a leap year")
+  else:
+    print("is a leap year")
+else:
+    print("not a leap year")
+
+
+
+->working of for loop:
+
+n=input()
+for i in range(1,6,2):
+  print(i,n)
+
+
+
+->in python we can use else in for loop and while loop.
+
+
+->program to find prime number:
+
+n=int(input())
+for i in range(2,n):
+    if n%1==0:
+        print("not prime")
+        break
+else:
+        print("prime")
+
+
+->program to find gcd of a number:
+
+
+a=int(input())
+b=int(input())
+m=min(a,b)
+g=1
+for i in range(1,m+1):
+    if a%1==0 and b%1==0:
+       g=i
+print(g)
+
+
+->program to find lcm of a number
+
+
+
+a=int(input())
+b=int(input())
+m=min(a,b)
+g=1
+for i in range(1,(a*b)+1):
+    if i%a==0 and i%b==0:
+       g=i
+       break
+print(g) 
+
+
+
+
+->in python to check memory location we use id keyword of variable.
+
+ 
+
+
+
+
+
+
+    
+
+     
+           
+
+
+INTRODUCTION TO PYTHON (INTERNSHIP PROGRAM)
+
+conditional  statements
+1.if
+2.if else
+3.elif
+3.nested if
+
+->in python there are only for loop and  while loop.
+
+->three control statements
+1.break
+2.continue
+3.pass
+
+working of else if:
+n=int(input())
+if n%2==0:
+    b=7
+    print(n,b)
+else:
+    print(b)
+
+
+->program to check positive or negetive number
+
+n=int(input())
+if n>0:
+    print("n is positive")
+elif n<0:
+    print("n is negetive")
+else:
+    print("0")
+
+
+
+->program for nested if (working):
+
+height=float(input())
+weight=float(input())
+gender=input()
+if height>5.8:
+ if weight<5.0:
+  if gender=="female":    
+    print("selected")
+  else:    
+    print("not selected")
+ else:   
+    print("not selected")
+else:
+    print("not selected")
+
+
+
+->leap year program:
+
+n=int(input())
+if n%4==0:
+  if n%100==0:
+    if n%400==0:
+     print("is a leap year")
+    else:
+     print("is not a leap year")
+  else:
+    print("is a leap year")
+else:
+    print("not a leap year")
+
+
+
+->working of for loop:
+
+n=input()
+for i in range(1,6,2):
+  print(i,n)
+
+
+
+->in python we can use else in for loop and while loop.
+
+
+->program to find prime number:
+
+n=int(input())
+for i in range(2,n):
+    if n%1==0:
+        print("not prime")
+        break
+else:
+        print("prime")
+
+
+->program to find gcd of a number:
+
+
+a=int(input())
+b=int(input())
+m=min(a,b)
+g=1
+for i in range(1,m+1):
+    if a%1==0 and b%1==0:
+       g=i
+print(g)
+
+
+->program to find lcm of a number
+
+
+
+a=int(input())
+b=int(input())
+m=min(a,b)
+g=1
+for i in range(1,(a*b)+1):
+    if i%a==0 and i%b==0:
+       g=i
+       break
+print(g) 
+
+
+
+
+->in python to check memory location we use id keyword of variable.
+
+ 
+
+
+
+
+
+
+    
+
+     
+           
+
+
+
+INTRODUCTION TO PYTHON (INTERNSHIP PROGRAM)
+
+conditional  statements
+1.if
+2.if else
+3.elif
+3.nested if
+
+->in python there are only for loop and  while loop.
+
+->three control statements
+1.break
+2.continue
+3.pass
+
+working of else if:
+n=int(input())
+if n%2==0:
+    b=7
+    print(n,b)
+else:
+    print(b)
+
+
+->program to check positive or negetive number
+
+n=int(input())
+if n>0:
+    print("n is positive")
+elif n<0:
+    print("n is negetive")
+else:
+    print("0")
+
+
+
+->program for nested if (working):
+
+height=float(input())
+weight=float(input())
+gender=input()
+if height>5.8:
+ if weight<5.0:
+  if gender=="female":    
+    print("selected")
+  else:    
+    print("not selected")
+ else:   
+    print("not selected")
+else:
+    print("not selected")
+
+
+
+->leap year program:
+
+n=int(input())
+if n%4==0:
+  if n%100==0:
+    if n%400==0:
+     print("is a leap year")
+    else:
+     print("is not a leap year")
+  else:
+    print("is a leap year")
+else:
+    print("not a leap year")
+
+
+
+->working of for loop:
+
+n=input()
+for i in range(1,6,2):
+  print(i,n)
+
+
+
+->in python we can use else in for loop and while loop.
+
+
+->program to find prime number:
+
+n=int(input())
+for i in range(2,n):
+    if n%1==0:
+        print("not prime")
+
+
+        break
+else:
+        print("prime")
+
+
+->program to find gcd of a number:
+
+
+a=int(input())
+b=int(input())
+m=min(a,b)
+g=1
+for i in range(1,m+1):
+    if a%i==0 and b%i==0:
+       g=i
+print(g)
+
+
+->program to find lcm of a number
+
+
+
+a=int(input())
+b=int(input())
+m=min(a,b)
+g=1
+for i in range(1,(a*b)+1):
+    if i%a==0 and i%b==0:
+       g=i
+       break
+print(g) 
+
+
+
+
+->in python to check memory location we use id keyword of variable.
+->variables in python stored in same address,
+it does not have duplicate address.
+
+
+=condition or command=
+1.if print("hello"):
+   print("hi")
+output:hello\\ command    \\ same for WHILE
+
+
+2.if 9999:
+    print("hi")
+output:hi\\
+
+->all non 0 interges will retuen true statements,0 will return false.
+
+
+3.while 999:
+print("hi")
+output:infinite times
+
+</reverse of a number/>
+int(input())
+rev=0
+while n!=0:
+    rem=n%10
+    rev=rev*10+rem
+    n=n//10
+    print(rev)
+input:1234
+output:4321
+
+
+sum of a number
+
+n=int(input())
+rev=0
+while n>0:
+    rem=n%10
+    rev=rev+rem
+    n=n//10
+print(rev)
+
+output
+
+123
+6
+
+
+multiplication of digit
+
+n=int(input())
+rev=1
+while n>0:
+    rem=n%10
+    rev=rev*rem
+    n=n//10
+print(rev)
+
+125
+10
+
+check for plandrom
+
+
+n=int(input())
+m=n
+rev=0
+while n>0:
+    rem=n%10
+    rev=rev*10+rem
+    n=n//10
+if m==rev:
+    print("it is plandrom")
+else:
+    print(" its nor")
+
+12521
+it is plandrom
+
+ther are two more operator:
+-> membership operatorn // (in)
+-> identity operator // (is)
+
+
+.if 'hi ' in 'hi,hello':      // here space is after hi so it jumps to bye     statement
+     print("hi")
+ else:
+     print("bye")
+ print("abc")
+
+
+
+flase or true = true
+flase and true =false
+
+ternary operator
+
+<exp> if <if_condition> else <else_condition>
+
+to count no of digits
+
+n=int(input())
+r=0
+while n!=0:
+    r=r+1
+    n=n//10
+print(r)
+
+factorial of a num
+
+n=int(input())
+res=1
+for i in range(1,n+1):
+    res=res*i
+    print(res)
+
+output
+
+3
+6
+
+fabonacci of number:
+n=int(input())
+a=0
+b=1
+print(a,b,end=" ")
+for i in range (3,n+1):
+    c=a+b
+    print(c,end=" ")
+    a=b
+input:8
+output:0 1 1 2 3 5 8 13 
+
+
+  
+
+printing a character in pratten:
+1.n=int(input())
+for i in range(0,n):
+    for j in range(i,n+i):
+        print(chr(65+j ),end=" ")
+    print()
+
+output:
+A B C
+B C D
+C D E
+   
+2.n=int(input())
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print()
+
+output:
+1
+1 2
+1 2 3
+
+3.n=int(input())
+for i in range(n):
+    if i==0 or i==n-1:
+        for j in range(n):
+            print("*" ,end=" ")
+        print()
+    else:
+        for j in range(n):
+            if j==0 or j==n-1:
+                print("*" ,end=" ")
+            else:
+                print(" ",end=" ")
+        print()
+output:
+* * * *
+*     *
+*     *
+* * * *
+
+n=int(input())
+for i in range(n):
+    if i==0 or i==n-1 or i==1 or i==n-2:
+        for j in range(n):
+            print("*" ,end=" ")
+        print()
+    else:
+        for j in range(n):
+            if j==0 or j==1 or j==n-2 or j==n-1:
+                print("*" ,end=" ")
+            else:
+                print(" ",end=" ")
+        print()
+
+output:
+* * * * * * * * * * 
+* * * * * * * * * * 
+* *             * * 
+* *             * * 
+* *             * * 
+* *             * * 
+* *             * * 
+* *             * * 
+* * * * * * * * * * 
+* * * * * * * * * *
+
+
+n=int(input())
+for i in range(1,n+1):
+    for j in range(1,n-i+1):
+        print(" " ,end=" ")
+    for j in range(0,2*i-1):
+        print("*" ,end=" ")
+    print()
+    
+output:
+      *
+    * * *
+  * * * * *
+* * * * * * *
+
+n=int(input())
+for i in range(1,n+1):
+    if i==1 or i==n:
+        for j in range(1,n-i+1):
+           print(" " ,end=" ")
+        for j in range(0,2*i-1):
+           print("*" ,end=" ")
+        print()
+    else:
+        for j in range(1,n-i+1):
+            print(" " ,end=" ")
+        for j in range(0,2*i-1):
+           if j==0 or j==2*i-2: 
+            print("*" ,end=" ")
+           else:
+              print(" ",end=" ")
+        print()
+
+    
+output:
+      *
+    *   *
+  *       *
+* * * * * * *
+
+n=int(input())
+for i in range(1,n+1):
+    for j in range(1,n-i+1):
+        print(" ",end=" ")
+    for j in range(0,2*i-1):
+        print("*",end=" ")
+    print()
+for i in range(n-1,0,-1):
+    for j in range(1,n-i+1):
+        print(" ",end=" ")
+    for j in range(0,2*i-1):
+        print("*",end=" ")
+    print()
+
+output:
+
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+  * * * * * * * 
+    * * * * * 
+      * * * 
+        * 
+
+n=int(input())
+for i in range(1,n+1):
+    for j in range(1,n-i+1):
+        print(" " ,end=" ")
+    for j in range(0,2*i-1):
+        print("*",end=" ")
+    for j in range(1,(n-i+1)*2):
+     if j!=(n-i+1)*2-1:
+        print(" " ,end=" ")
+    for j in range(0,2*i-1):
+        print("*",end=" ")
+    print()
+for i in range((2*n-1),0,-1):
+    for j in range(1,(2*n)-i):
+        print(" " ,end=" ")
+    for j in range(0,2*i-1):
+        print("*",end=" ")
+    print()
+output:
+  * * * * *           * * * * * 
+  * * * * * * *     * * * * * * * 
+* * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * 
+  * * * * * * * * * * * * * * * 
+    * * * * * * * * * * * * * 
+      * * * * * * * * * * * 
+        * * * * * * * * * 
+          * * * * * * * 
+            * * * * * 
+              * * * 
+                *
+
+
+
+n=int(input())
+for i in range(1,n+1):
+    if i==1:
+        for j in range(1,n-i+1):
+            print(" ",end="")
+        for j in range(0,2*i-1):
+            print("*", end="")
+        print()
+    elif i== n//2+1:
+        for j in range(1,n-i+1):
+            print(" ",end="")
+        for j in range(0,2*i-1):
+            print("*", end="")
+        print()
+    else:
+        for j in range(1,n-i+1):
+            print(" ",end="")
+        for j in range(0,2*i-1):
+            if j==0 or j==2*i-2:
+                print("*",end="")
+            else:
+                print(" ",end="")
+        print()
+
+output:
+    *
+   * *
+  *****
+ *     *
+*       *
+
+->list: a collection of different datatypes eg. a=[],list is changable
+->tuple is also a collection of differnt datatype eg.a=(),not changabled
+->dictionary a collection of different datatypes eg. a={}
+->a=set()\\to creat an empty set.
+
+l=[2,8,6,4]
+m=l[0]
+for i in l:
+    if i<m:
+        m=i
+print (m)
+output:
+
+
+
+
+
